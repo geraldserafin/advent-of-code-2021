@@ -1,6 +1,3 @@
--- assuming that the input is correct
-{-# OPTIONS_GHC -Wno-incomplete-patterns #-}
-
 translate :: (String, Int) -> [Int]
 translate ("forward", b) = [b, 0]
 translate ("up", b) = [0, -b]
