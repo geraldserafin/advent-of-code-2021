@@ -1,1 +1,1 @@
-# Trying to figure out haskell ;)
+# Trynna figure out haskell ;)
