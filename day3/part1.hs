@@ -1,4 +1,3 @@
-import Data.Vector.Unboxed (zipWith5)
 mostCommonBit :: [[Int]] -> [Int]
 mostCommonBit xs = map mapFn (foldl foldlFn acc xs)
   where 
